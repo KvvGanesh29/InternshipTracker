@@ -1,0 +1,19 @@
+2026-03-26T03:40:26.820Z [INFO] ----------------------invoke appmod-install-maven----------------------
+2026-03-26T03:40:26.821Z [INFO] [Tool.invoke]({name: appmod-install-maven, input: {
+  "version": "latest",
+  "projectPath": "c:\\FASD EVEN SEM 2-2\\internshiptracker"
+}}).
+2026-03-26T03:40:26.821Z [INFO] [Tool.invoke] do invoke.
+2026-03-26T03:40:33.265Z [INFO] [Tool.invoke]({result: {
+  "result": {
+    "name": "mvn",
+    "path": "C:\\Users\\prasa\\.maven\\maven-3.9.14\\bin",
+    "version": "3.9.14"
+  },
+  "message": "Maven latest is installed at C:\\Users\\prasa\\.maven\\maven-3.9.14\\bin",
+  "telemetry": {
+    "tool": "Maven",
+    "version": "latest"
+  }
+}}).
+2026-03-26T03:40:33.266Z [INFO] ----------------------invoked appmod-install-maven----------------------

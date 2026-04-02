@@ -1,0 +1,17 @@
+2026-03-26T04:20:08.734Z [INFO] ----------------------invoke appmod-redirect-to-upgrade-agent----------------------
+2026-03-26T04:20:08.735Z [INFO] [Tool.invoke]({name: appmod-redirect-to-upgrade-agent, input: {
+  "projectPath": "c:\\FASD EVEN SEM 2-2\\internshiptracker",
+  "originalPrompt": "upgrade java runtime to the LTS version Java 21 using java upgrade tools"
+}}).
+2026-03-26T04:20:08.736Z [INFO] [Tool.invoke] do invoke.
+2026-03-26T04:20:08.738Z [INFO] [RedirectToUpgradeAgentTool] Redirecting to custom agent "modernize-java-upgrade" with prompt: upgrade java runtime to the LTS version Java 21 using java upgrade tools
+2026-03-26T04:20:08.842Z [INFO] [RedirectToUpgradeAgentTool] Redirected to custom agent "modernize-java-upgrade". User MUST switch to the new agent to continue.
+2026-03-26T04:20:08.843Z [INFO] [Tool.invoke]({result: {
+  "message": "The upgrade request has been redirected to the \"modernize-java-upgrade\" agent in a new chat session. You MUST! stop processing in this session.",
+  "result": {
+    "redirected": true,
+    "agentName": "modernize-java-upgrade",
+    "prompt": "upgrade java runtime to the LTS version Java 21 using java upgrade tools"
+  }
+}}).
+2026-03-26T04:20:08.844Z [INFO] ----------------------invoked appmod-redirect-to-upgrade-agent----------------------

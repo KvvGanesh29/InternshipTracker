@@ -1,0 +1,22 @@
+2026-03-26T03:40:18.912Z [INFO] ----------------------invoke appmod-list-jdks----------------------
+2026-03-26T03:40:18.913Z [INFO] [Tool.invoke]({name: appmod-list-jdks, input: {
+  "projectPath": "c:\\FASD EVEN SEM 2-2\\internshiptracker"
+}}).
+2026-03-26T03:40:18.914Z [INFO] [Tool.invoke] do invoke.
+2026-03-26T03:40:18.945Z [INFO] [Tool.invoke]({result: {
+  "message": "We found following jdks in your system:\n\n1. Java 25.0.2\n   📁 Path: C:\\Program Files\\Java\\jdk-25.0.2\\bin\n   🏷️ Source: PATH\n\nTotal: 1 JDK installation(s) found"
+}}).
+2026-03-26T03:40:18.945Z [INFO] ----------------------invoked appmod-list-jdks----------------------
+2026-03-26T03:40:18.961Z [INFO] ---------------------prepare appmod-install-maven----------------------
+2026-03-26T03:40:18.962Z [INFO] [Tool.prepareInvocation]({name: appmod-install-maven, input: {
+  "version": "latest"
+}}).
+2026-03-26T03:40:18.962Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-03-26T03:40:20.271Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Download and install Maven",
+  "confirmationMessages": {
+    "title": "Download and install Maven",
+    "message": "\nThis tool will download and install Maven latest from Apache with below settings.\n- **Version**: latest\n- **Vendor**: Apache\n- **Url**: https://dlcdn.apache.org/maven/maven-3/3.9.14/binaries/apache-maven-3.9.14-bin.zip\n- **Destination**: `C:\\Users\\prasa\\.maven`\n- **Checksum**: SHA512: 4122c5e7a8794260539dd8fcd78480549511babff2f85e2b1258c8d4cf33c50af90f65d323f43c88d4959f35a8f37ced3eca802983caa6eb7cc81b16af936ab0\n- **Signature**: https://dlcdn.apache.org/maven/maven-3/3.9.14/binaries/apache-maven-3.9.14-bin.zip.asc\n- **Public Key**: https://downloads.apache.org/maven/KEYS\n"
+  }
+}}).
+2026-03-26T03:40:20.272Z [INFO] ----------------------prepared appmod-install-maven----------------------

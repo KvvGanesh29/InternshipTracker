@@ -1,0 +1,80 @@
+2026-03-26T03:44:53.594Z [INFO] ----------------------invoke build_java_project----------------------
+2026-03-26T03:44:53.594Z [INFO] [Tool.invoke]({name: build_java_project, input: {
+  "projectPath": "c:\\FASD EVEN SEM 2-2\\internshiptracker",
+  "jdkPath": "C:\\Program Files\\Java\\jdk-25.0.2",
+  "buildToolPath": "C:\\Users\\prasa\\.maven\\maven-3.9.14\\bin"
+}}).
+2026-03-26T03:44:53.595Z [INFO] [Tool.invoke] do invoke.
+2026-03-26T03:44:53.595Z [INFO] Project c:\FASD EVEN SEM 2-2\internshiptracker is a maven project, try to get java version from pom.xml
+2026-03-26T03:44:53.600Z [INFO] Project java version: 17
+2026-03-26T03:44:53.601Z [INFO] Build tool type detected from path: mvn
+2026-03-26T03:44:53.601Z [INFO] Build tool type: mvn
+2026-03-26T03:44:53.603Z [INFO] JDK: {
+  "name": "java",
+  "path": "C:\\Program Files\\Java\\jdk-25.0.2\\bin",
+  "version": "17"
+}
+2026-03-26T03:44:53.603Z [INFO] Build tool: {
+  "name": "mvn",
+  "path": "C:\\Users\\prasa\\.maven\\maven-3.9.14\\bin",
+  "version": ""
+}
+2026-03-26T03:44:53.604Z [INFO] Project config: {
+  "buildTool": {
+    "path": "C:\\Users\\prasa\\.maven\\maven-3.9.14\\bin",
+    "name": "mvn",
+    "version": ""
+  },
+  "jdk": {
+    "path": "C:\\Program Files\\Java\\jdk-25.0.2\\bin",
+    "name": "java",
+    "version": "17"
+  },
+  "name": "internshiptracker",
+  "dir": "c:\\FASD EVEN SEM 2-2\\internshiptracker"
+}
+2026-03-26T03:44:53.605Z [INFO] [MavenBuildTool] Getting build errors of c:\FASD EVEN SEM 2-2\internshiptracker using Maven
+2026-03-26T03:44:53.606Z [INFO] [Environment] Running command (Java undefined): mvn clean test-compile -q -B -fn
+'mvn' is not recognized as an internal or external command,
+operable program or batch file.
+2026-03-26T03:44:53.649Z [WARN] Initial mvn clean compile failed, attempting mvn clean install to fix dependency errors.
+2026-03-26T03:44:53.649Z [INFO] [MavenBuildTool] Getting build errors of c:\FASD EVEN SEM 2-2\internshiptracker using Maven
+2026-03-26T03:44:53.650Z [INFO] [Environment] Running command (Java undefined): mvn clean install -DskipTests -Dgpg.skip -Ddockerfile.skip -q -B -fn
+'mvn' is not recognized as an internal or external command,
+operable program or batch file.
+2026-03-26T03:44:53.694Z [INFO] [Environment] Running command (Java undefined): mvn clean test-compile -q -B -fn
+'mvn' is not recognized as an internal or external command,
+operable program or batch file.
+2026-03-26T03:44:53.728Z [INFO] [MavenBuildTool] parsing compilation errors.
+2026-03-26T03:44:53.729Z [INFO] [MavenBuildTool] Getting all module coordinates of c:\FASD EVEN SEM 2-2\internshiptracker
+2026-03-26T03:44:53.729Z [INFO] [MavenBuildTool] Getting effective POMs of c:\FASD EVEN SEM 2-2\internshiptracker
+2026-03-26T03:44:53.730Z [INFO] [Environment] Running command (Java undefined): mvn help:effective-pom -Doutput=effective-pom-95655686-366f-4a9a-9a20-592d9611a69b.log
+'mvn' is not recognized as an internal or external command,
+operable program or batch file.
+2026-03-26T03:44:53.775Z [INFO] [MavenBuildTool] Failed to get effective POMs: Error: ENOENT: no such file or directory, open 'c:\FASD EVEN SEM 2-2\internshiptracker\effective-pom-95655686-366f-4a9a-9a20-592d9611a69b.log'
+2026-03-26T03:44:53.776Z [INFO] [BaseBuildTool] Found 0 modules: 
+2026-03-26T03:44:53.777Z [INFO] [BaseBuildTool] Finish counting Java and class files
+2026-03-26T03:44:53.778Z [INFO] [MavenBuildTool] Cleaning c:\FASD EVEN SEM 2-2\internshiptracker using Maven
+2026-03-26T03:44:53.778Z [INFO] [Environment] Running command (Java undefined): mvn clean -q -B -fn
+'mvn' is not recognized as an internal or external command,
+operable program or batch file.
+2026-03-26T03:44:53.819Z [INFO] [MavenBuildTool] Getting all module coordinates of c:\FASD EVEN SEM 2-2\internshiptracker
+2026-03-26T03:44:53.820Z [INFO] [MavenBuildTool] Getting effective POMs of c:\FASD EVEN SEM 2-2\internshiptracker
+2026-03-26T03:44:53.820Z [INFO] Build succeeded! There are no build errors in the project.
+2026-03-26T03:44:53.820Z [INFO] [Environment] Running command (Java undefined): mvn help:effective-pom -Doutput=effective-pom-fdd63ae7-c2e8-46d7-92d3-32762dc439df.log
+2026-03-26T03:44:53.837Z [INFO] [Tool.invoke]({result: {
+  "message": "Build succeeded! There are no build errors in the project.",
+  "result": {
+    "numOfJavaFiles": 0,
+    "numOfClassFiles": 0,
+    "errors": [],
+    "command": "mvn clean test-compile -q -B -fn"
+  },
+  "telemetry": {
+    "result": "succeeded"
+  }
+}}).
+2026-03-26T03:44:53.837Z [INFO] ----------------------invoked build_java_project----------------------
+'mvn' is not recognized as an internal or external command,
+operable program or batch file.
+2026-03-26T03:44:53.863Z [INFO] [MavenBuildTool] Failed to get effective POMs: Error: ENOENT: no such file or directory, open 'c:\FASD EVEN SEM 2-2\internshiptracker\effective-pom-fdd63ae7-c2e8-46d7-92d3-32762dc439df.log'
